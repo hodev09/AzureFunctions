@@ -1,8 +1,8 @@
-﻿using TestFunction.DataAccess;
+﻿using System;
+using TestFunction.DataAccess;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
 [assembly: FunctionsStartup(typeof(TestFunction.StartUp))]
 namespace TestFunction
